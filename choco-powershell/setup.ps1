@@ -99,6 +99,8 @@ $devTools = @(
     "nodejs-lts",
     #Python
     "python3",
+    #Database
+    "ssms",
     # hosting on cloud
     "azure-cli",
     # Diagramming
