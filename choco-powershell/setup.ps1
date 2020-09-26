@@ -115,5 +115,7 @@ Write-Host "Installed dev tools" -Foreground green
 ######## <- DEV TOOLS CONFIGURATION ########
 
 #### -> PERSONALIZE ####
+git config --global user.email "joymon@gmail.com"
+git config --global user.name "Joy George Kunjikkuru"
 
 #### <- PERSONALIZE ####
