@@ -89,12 +89,14 @@ Write-Host "Installed common tools" -Foreground green
 Write-Host "Installing dev tools using choco"
 $devTools = @(
     #Editors
-    #"vscode",
+    "vscode",
     #Version control    
     "git",
     #.Net
     "dotnetcore-sdk",
     "dotpeek",
+    #Uncomment below line for service fabric
+    #"service-fabric-explorer",
     #NodeJS
     "nodejs-lts",
     #Python
