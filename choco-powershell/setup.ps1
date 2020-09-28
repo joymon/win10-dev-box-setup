@@ -119,8 +119,9 @@ $vsCodeExtensions = @(
     "streetsidesoftware.code-spell-checker"
 
 )
+Write-Host "Installing VS Code extensions"
 $vsCodeExtensions | ForEach-Object { code --install-extension $_}
-
+Write-Host "Installed VS Code Extensions" -Foreground green
 Write-Host "Installed dev tools" -Foreground green
 ######## <- DEV TOOLS CONFIGURATION ########
 
