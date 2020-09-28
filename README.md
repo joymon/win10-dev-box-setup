@@ -1,6 +1,7 @@
 # Win10 dev box setup
 
-This is the repo storing scripts that used to setup my dev machine. Currently using Boxstarter+Choco+PowerShell combination. Planning to research using other configuration tools such as Ansible.
+This is the repo storing scripts that used to setup my dev machine. Currently using Boxstarter+Choco+PowerShell combination. 
+Plan to use Ansible has abandoned as that is not native to Windows [#3](/../../issues/3).
 
 # Getting started
 Navigate to [Boxstarter+Choco+PowerShell solution.](/choco-powershell)
