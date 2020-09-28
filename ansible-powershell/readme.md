@@ -16,6 +16,6 @@ Below are some hurdles in using Ansible for Win 10 dev box setup
   - [Technical challenge details from its developer](http://blog.rolpdog.com/2020/03/why-no-ansible-controller-for-windows.html)
   - More links, [1](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#control-node-requirements)
 
-  # What's next
+# What's next
 
-  - Revisit when Windows 10 starts shipping WSL out of the box and WSL is officially supported by Ansible
+- Revisit when Windows 10 starts shipping WSL out of the box and WSL is officially supported by Ansible
