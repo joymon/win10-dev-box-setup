@@ -111,6 +111,16 @@ $devTools = @(
 foreach ($devTool in $devTools) {
     cinst $devTool -y
 }
+
+###### -> Install VS Code Extensions #######
+$vsCodeExtensions = @(
+    "jebbs.plantuml",
+    "evilz.vscode-reveal",
+    "streetsidesoftware.code-spell-checker"
+
+)
+$vsCodeExtensions | ForEach-Object { code --install-extension $_}
+
 Write-Host "Installed dev tools" -Foreground green
 ######## <- DEV TOOLS CONFIGURATION ########
 
