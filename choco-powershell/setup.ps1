@@ -95,6 +95,7 @@ $devTools = @(
     #.Net
     "dotnetcore-sdk",
     "dotpeek",
+    "debugdiagnostic",
     #Uncomment below line for service fabric
     #"service-fabric-explorer",
     #NodeJS
@@ -117,7 +118,6 @@ $vsCodeExtensions = @(
     "jebbs.plantuml",
     "evilz.vscode-reveal",
     "streetsidesoftware.code-spell-checker"
-
 )
 Write-Host "Installing VS Code extensions"
 $vsCodeExtensions | ForEach-Object { code --install-extension $_}
