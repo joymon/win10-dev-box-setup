@@ -117,7 +117,8 @@ foreach ($devTool in $devTools) {
 $vsCodeExtensions = @(
     "jebbs.plantuml",
     "evilz.vscode-reveal",
-    "streetsidesoftware.code-spell-checker"
+    "streetsidesoftware.code-spell-checker",
+    "ms-azuretools.vscode-docker"
 )
 Write-Host "Installing VS Code extensions"
 $vsCodeExtensions | ForEach-Object { code --install-extension $_}
