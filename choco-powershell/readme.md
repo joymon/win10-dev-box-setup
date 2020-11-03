@@ -15,8 +15,8 @@ Make sure its opened from IE. Everything will be taken care
 
 ## Environment
 
-- On Power monitor timeout to 20 mins
-- On Power never sleep 
+- On Power, monitor timeout to 20 mins
+- On Power, never sleep 
 - Show hidden files and folders
 - Show protected OS files
 - Show known file extensions
@@ -49,6 +49,7 @@ Make sure its opened from IE. Everything will be taken care
   - PowerShell Core
 - Utils
   - FileZilla
+  - Greenshot
 
 ### Publishing
 
