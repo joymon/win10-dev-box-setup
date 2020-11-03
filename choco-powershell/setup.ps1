@@ -75,7 +75,9 @@ $Apps = @(
     "powershell-core",
     
     #Utils
-    "filezilla"
+    "filezilla",
+    "greenshot"
+
     #"lightshot.install",
 )
 
