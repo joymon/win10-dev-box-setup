@@ -5,15 +5,17 @@
 
 One click Web URL - Click [here to install using Boxstarter](http://boxstarter.org/package/url?https://raw.githubusercontent.com/joymon/win10-dev-box-setup/master/choco-powershell/setup.ps1)
 
-Make sure its opened from IE. Everything will be taken care
+Requires admin access
 
-# What are the changes and software installed
-
+Make sure its opened from IE. Everything will be taken care.
 ## Prerequisites
 - Chocolatey
 - Box starter
 
-## Environment
+
+# What are the changes and software installed
+
+## Environment changes
 
 - On Power, monitor timeout to 20 mins
 - On Power, never sleep 
